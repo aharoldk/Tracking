@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/cardview_default_elevation"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            tools:ignore="UselessParent">
+            <TextView
+                android:id="@+id/tv_suratJalan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="SJ-123ARS"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3">
+            <TextView
+                android:id="@+id/tv_tgl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="2017-12-12"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3">
+            <TextView
+                android:id="@+id/tv_jarak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Jarak : 200 km"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            tools:ignore="UselessParent">
+            <TextView
+                android:id="@+id/tv_kotaasal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Asal : Makassar"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+            <TextView
+                android:id="@+id/tv_kotatujuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Tujuan : Palu"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            tools:ignore="UselessParent">
+            <TextView
+                android:id="@+id/tv_supir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Supir : Mukidin"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+            <TextView
+                android:id="@+id/tv_platmobil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Plat : DD 123 AJ"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/cardview_dark_background" />
+</LinearLayout>
